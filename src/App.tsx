@@ -1,7 +1,8 @@
 import "./App.css";
+import LandingPage from "./components/LandingPage";
 
 function App() {
-  return <h1>Ben and Neva</h1>;
+  return <LandingPage />;
 }
 
 export default App;
