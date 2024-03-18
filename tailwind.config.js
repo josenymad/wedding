@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         berkshire: ["Berkshire Swash", "serif"],
+        cherry: ["Cherry Swash", "serif"],
       },
     },
   },
