@@ -9,7 +9,7 @@ import seven from "../assets/compressed_directions/7 - Continue into the farm-mi
 
 const TravelSlider = () => {
   return (
-    <Slider className="p-2 w-1/2" dots>
+    <Slider className="p-2 w-1/2 justify-self-center" dots>
       <figure>
         <img
           src={one}

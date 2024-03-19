@@ -1,0 +1,130 @@
+import accommodation from "../assets/accommodationCompressed.jpg";
+
+const Accommodation = () => {
+  return (
+    <section
+      className="bg-orange-700 min-h-screen text-white"
+      id="accommodation"
+    >
+      <div className="grid grid-cols-2">
+        <hgroup className="p-2">
+          <h2 className="text-7xl font-berkshire mb-8">Accommodation</h2>
+          <ul className="font-cherry text-lg">
+            <li>
+              <p className="mb-4">
+                You are welcome to camp on site and we'd love it if you did!
+              </p>
+            </li>
+            <li>
+              <p className="mb-4">
+                Camper-vans/caravans are also welcome, but there are no
+                electrical hookups. Glamping options are available too.
+              </p>
+            </li>
+            <li>
+              <p className="mb-4">
+                In addition, the venue has recommended some local accommodation
+                options below:
+              </p>
+            </li>
+            <li>
+              <p>Local Airbnbs -</p>
+            </li>
+            <li>
+              <ul className="list-disc list-inside mb-4">
+                <li>
+                  <a
+                    href="https://www.airbnb.co.uk/rooms/1018453180441302660?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-02-18&check_out=2024-02-23&source_impression_id=p3_1706885345_4u0UjYZkAolAlZUK&previous_page_section_name=1000&federated_search_id=6233f2ed-439f-4fda-b00b-8f617d3688f4"
+                    className="underline"
+                  >
+                    Ramblers Retreat,
+                  </a>{" "}
+                  Compstall
+                </li>
+                <li>
+                  <a
+                    href="https://www.sykescottages.co.uk/cottage/Peak-District-Cheshire-Benfield/The-Barn-1065748.html"
+                    className="underline"
+                  >
+                    The Barn,
+                  </a>{" "}
+                  Compstall
+                </li>
+                <li>
+                  <a
+                    href="https://www.airbnb.co.uk/rooms/52981886?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-02-04&check_out=2024-02-09&source_impression_id=p3_1706885357_eT2JJ8txpx66FW%2BQ&previous_page_section_name=1000&federated_search_id=6233f2ed-439f-4fda-b00b-8f617d3688f4"
+                    className="underline"
+                  >
+                    Barn in Romiley
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.airbnb.co.uk/rooms/862040479275834229?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-02-05&check_out=2024-02-10&source_impression_id=p3_1706885345_GfseJOrXPX1lkvum&previous_page_section_name=1000&federated_search_id=6233f2ed-439f-4fda-b00b-8f617d3688f4"
+                    className="underline"
+                  >
+                    Hollins Cottage
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.airbnb.co.uk/rooms/38145762?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-02-05&check_out=2024-02-10&source_impression_id=p3_1706885345_2Q3oOhCx4cYnjVHL&previous_page_section_name=1000&federated_search_id=6233f2ed-439f-4fda-b00b-8f617d3688f4"
+                    className="underline"
+                  >
+                    Town Street Apartment
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Local hotels -</p>
+            </li>
+            <li>
+              <ul className="list-disc list-inside mb-4">
+                <li>
+                  <a
+                    href="https://www.premierinn.com/gb/en/hotels/england/greater-manchester/manchester/manchester-tameside-hyde.html?cid=GLBC_MANOUT"
+                    className="underline"
+                  >
+                    Premier Inn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.village-hotels.co.uk/manchester-hyde"
+                    className="underline"
+                  >
+                    Village Hotel
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.ihg.com/holidayinnexpress/hotels/gb/en/stockport/xvasr/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-GB-_-XVASR"
+                    className="underline"
+                  >
+                    Holiday Inn
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.travelodge.co.uk/hotels/550/Glossop-hotel?utm_source=google&utm_medium=GHA_Organic&utm_campaign=GHA_Glossop&WT.tsrc=GHA_Organic"
+                    className="underline"
+                  >
+                    Travel Lodge
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </hgroup>
+        <img
+          src={accommodation}
+          alt="Ben and Neva"
+          className="w-3/5 mt-16 ml-16 rounded-xl"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Accommodation;

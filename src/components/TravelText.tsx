@@ -15,7 +15,12 @@ const TravelText = () => {
           </p>
         </li>
         <li className="mb-8">
-          <a href="https://w3w.co/deploying.propose.streamers">What3Words</a>
+          <a
+            href="https://w3w.co/deploying.propose.streamers"
+            className="underline"
+          >
+            What3Words
+          </a>
         </li>
         <li>
           <p className="mb-4">

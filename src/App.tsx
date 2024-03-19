@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import Travel from "./components/Travel";
+import Accommodation from "./components/Accommodation";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <Travel />
+      <Accommodation />
     </main>
   );
 }
