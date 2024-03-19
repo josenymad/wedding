@@ -1,6 +1,16 @@
-const Navbar = () => {
+interface NavbarProps {
+  inView: boolean;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ inView }) => {
+  let textColour = "text-";
+
+  inView ? (textColour += "black") : (textColour += "white");
+
   return (
-    <nav className="fixed z-10 font-berkshire text-white text-xl text-right top-2 right-0 p-2 rounded-l-3xl shadow-[inset_0px_0px_30px_rgba(0,0,0,0.3)]">
+    <nav
+      className={`fixed z-10 font-berkshire ${textColour} text-xl text-right top-2 right-0 p-2 rounded-l-3xl shadow-[inset_0px_0px_30px_rgba(0,0,0,0.3)]`}
+    >
       <ul>
         <li className="my-8">
           <a href="#landing_page">Home</a>
