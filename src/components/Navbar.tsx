@@ -9,7 +9,7 @@ const Navbar: React.FC<NavbarProps> = ({ inView }) => {
 
   return (
     <nav
-      className={`fixed z-10 font-berkshire ${textColour} text-xl text-right top-2 right-0 p-2 rounded-l-3xl shadow-[inset_0px_0px_30px_rgba(0,0,0,0.3)]`}
+      className={`fixed z-10 font-berkshire ${textColour} duration-500 text-xl text-right top-2 right-0 p-2 rounded-l-3xl shadow-[inset_0px_0px_30px_rgba(0,0,0,0.3)]`}
     >
       <ul>
         <li className="my-8">

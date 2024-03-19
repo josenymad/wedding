@@ -28,7 +28,7 @@ const Accommodation = () => {
               </p>
             </li>
             <li>
-              <p>Local Airbnbs -</p>
+              <p className="font-bold">Local Airbnbs</p>
             </li>
             <li>
               <ul className="list-disc list-inside mb-4">
@@ -77,7 +77,7 @@ const Accommodation = () => {
               </ul>
             </li>
             <li>
-              <p>Local hotels -</p>
+              <p className="font-bold">Local hotels</p>
             </li>
             <li>
               <ul className="list-disc list-inside mb-4">
