@@ -1,10 +1,12 @@
-import Navbar from "./components/Navbar";
-import LandingPage from "./components/LandingPage";
-import Travel from "./components/Travel";
-import Accommodation from "./components/Accommodation";
-import FAQs from "./components/FAQs";
-import RSVP from "./components/RSVP";
+import Main from "./components/Main";
+import Ceremony from "./components/Ceremony";
+import Evening from "./components/Evening";
+import CeremonyCamping from "./components/CeremonyCamping";
+import CeremonyPlans from "./components/CeremonyPlans";
+import CanYouHelp from "./components/CanYouHelp";
+import CeremonyRsvp from "./components/CeremonyRsvp";
 import { useInView } from "react-intersection-observer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   const { ref: reference, inView } = useInView({
@@ -13,12 +15,19 @@ function App() {
 
   return (
     <main>
-      <Navbar inView={inView} />
-      <LandingPage />
-      <Travel />
-      <Accommodation />
-      <FAQs reference={reference} />
-      <RSVP />
+      <Routes>
+        <Route
+          path="/"
+          element={<Main reference={reference} inView={inView} />}
+        />
+        <Route path="ceremony" element={<Ceremony />}>
+          <Route path="camping" element={<CeremonyCamping />} />
+          <Route path="plans-for-the-day" element={<CeremonyPlans />} />
+          <Route path="can-you-help" element={<CanYouHelp />} />
+          <Route path="rsvp" element={<CeremonyRsvp />} />
+        </Route>
+        <Route path="evening" element={<Evening />} />
+      </Routes>
     </main>
   );
 }
