@@ -4,6 +4,7 @@ import Travel from "../components/Travel";
 import Accommodation from "../components/Accommodation";
 import FAQs from "../components/FAQs";
 import RSVP from "../components/RSVP";
+import MobileNavbar from "./MobileNavbar";
 
 interface MainProps {
   reference: (node?: Element | null | undefined) => void;
@@ -13,7 +14,7 @@ interface MainProps {
 const Main: React.FC<MainProps> = ({ reference, inView }) => {
   return (
     <div>
-      <Navbar inView={inView} />
+      {window.innerWidth > 750 ? <Navbar inView={inView} /> : <MobileNavbar />}
       <LandingPage />
       <Travel />
       <Accommodation />

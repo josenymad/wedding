@@ -9,3 +9,42 @@
 html {
     scroll-behavior: smooth;
 }
+
+.bm-burger-button {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+}
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-cross {
+    color: #ffffff;
+}
+
+.bm-menu-wrap {
+    width: 200px !important;
+}
+
+.bm-menu {
+    background: #373a47;
+}
+
+.bm-item-list {
+    color: #ffffff;
+    padding: 1rem;
+    font-family: "Berkshire Swash", serif;
+}
+
+.bm-item {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
