@@ -14,7 +14,7 @@ interface MainProps {
 const Main: React.FC<MainProps> = ({ reference, inView }) => {
   return (
     <div>
-      {window.innerWidth > 750 ? <Navbar inView={inView} /> : <MobileNavbar />}
+      {window.innerWidth > 1200 ? <Navbar inView={inView} /> : <MobileNavbar />}
       <LandingPage />
       <Travel />
       <Accommodation />

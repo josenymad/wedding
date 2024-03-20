@@ -9,72 +9,82 @@ import seven from "../assets/compressed_directions/7 - Continue into the farm-mi
 
 const TravelSlider = () => {
   return (
-    <Slider className="p-2 w-1/2 justify-self-center" dots>
-      <figure>
-        <img
-          src={one}
-          alt="Enter the park here from Montague street"
-          className="rounded-xl"
-        />
-        <figcaption className="text-center font-cherry">
-          Enter the park here from Montague street
-        </figcaption>
-      </figure>
+    <div className="w-[25vw] p-2 justify-self-center">
+      <Slider dots>
+        <figure>
+          <img
+            src={one}
+            alt="Enter the park here from Montague street"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Enter the park here from Montague street
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img src={two} alt="Continue through the park" className="rounded-xl" />
-        <figcaption className="text-center font-cherry">
-          Continue through the park
-        </figcaption>
-      </figure>
+        <figure>
+          <img
+            src={two}
+            alt="Continue through the park"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Continue through the park
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src={three}
-          alt="Bear right at the cottages"
-          className="rounded-xl"
-        />
-        <figcaption className="text-center font-cherry">
-          Bear right at the cottages
-        </figcaption>
-      </figure>
+        <figure>
+          <img
+            src={three}
+            alt="Bear right at the cottages"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Bear right at the cottages
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src={four}
-          alt="Go over the bridge past the waterfall"
-          className="rounded-xl"
-        />
-        <figcaption className="text-center font-cherry">
-          Go over the bridge past the waterfall
-        </figcaption>
-      </figure>
+        <figure>
+          <img
+            src={four}
+            alt="Go over the bridge past the waterfall"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Go over the bridge past the waterfall
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img
-          src={five}
-          alt="Turn left after the bridge"
-          className="rounded-xl"
-        />
-        <figcaption className="text-center font-cherry">
-          Turn left after the bridge
-        </figcaption>
-      </figure>
+        <figure>
+          <img
+            src={five}
+            alt="Turn left after the bridge"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Turn left after the bridge
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img src={six} alt="Go through the gate" className="rounded-xl" />
-        <figcaption className="text-center font-cherry">
-          Go through the gate
-        </figcaption>
-      </figure>
+        <figure>
+          <img src={six} alt="Go through the gate" className="rounded-xl" />
+          <figcaption className="text-center font-cherry">
+            Go through the gate
+          </figcaption>
+        </figure>
 
-      <figure>
-        <img src={seven} alt="Continue into the farm" className="rounded-xl" />
-        <figcaption className="text-center font-cherry">
-          Continue into the farm
-        </figcaption>
-      </figure>
-    </Slider>
+        <figure>
+          <img
+            src={seven}
+            alt="Continue into the farm"
+            className="rounded-xl"
+          />
+          <figcaption className="text-center font-cherry">
+            Continue into the farm
+          </figcaption>
+        </figure>
+      </Slider>
+    </div>
   );
 };
 

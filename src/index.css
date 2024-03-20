@@ -12,10 +12,9 @@ html {
 
 .bm-burger-button {
     position: fixed;
-    width: 30px;
-    height: 30px;
-    right: 36px;
-    top: 36px;
+    width: 2rem;
+    right: 1rem;
+    top: 1rem;
 }
 
 .bm-burger-bars {
@@ -41,7 +40,6 @@ html {
 }
 
 .bm-item {
-    display: inline-block;
     margin-bottom: 1rem;
 }
 

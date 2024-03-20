@@ -1,8 +1,8 @@
 const TravelText = () => {
   return (
     <hgroup className="p-2">
-      <h2 className="text-7xl font-berkshire mb-8">Travel</h2>
-      <ul className="font-cherry text-lg">
+      <h2 className="text-[5vw] font-berkshire mb-8">Travel</h2>
+      <ul className="font-cherry text-[1.25vw]">
         <li>
           <p className="mb-4">Directions:</p>
         </li>
