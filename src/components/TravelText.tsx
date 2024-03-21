@@ -1,11 +1,8 @@
 const TravelText = () => {
   return (
     <hgroup className="p-2">
-      <h2 className="text-[9vw] font-berkshire">Travel</h2>
-      <ul className="font-cherry">
-        <li>
-          <p className="mb-4">Directions:</p>
-        </li>
+      <h2 className="text-[9vw] font-berkshire mb-4">Travel</h2>
+      <ul className="font-cherry text-lg">
         <li>
           <p className="mb-4">
             Use postcode SK6 5JE, which should take you to Montague Street.
@@ -24,9 +21,10 @@ const TravelText = () => {
         </li>
         <li>
           <p className="mb-4">
-            If you are getting taxis the numbers below should know the location,
-            and we recommend booking in advance for your journey home. The venue
-            does come up on Uber and Bolt (Whitebottom Farm Weddings/Events).
+            If you are getting taxis, the numbers below should know the
+            location. We recommend booking in advance for your journey home. The
+            venue does come up on Uber and Bolt (Whitebottom Farm
+            Weddings/Events).
           </p>
         </li>
         <li>

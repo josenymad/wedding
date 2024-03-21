@@ -6,9 +6,9 @@ const Accommodation = () => {
       className="bg-orange-700 min-h-screen text-white"
       id="accommodation"
     >
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 xs:grid-cols-2">
         <hgroup className="p-2">
-          <h2 className="text-7xl font-berkshire mb-8">Accommodation</h2>
+          <h2 className="text-[9vw] font-berkshire mb-4">Accommodation</h2>
           <ul className="font-cherry text-lg">
             <li>
               <p className="mb-4">
@@ -120,7 +120,7 @@ const Accommodation = () => {
         <img
           src={accommodation}
           alt="Ben and Neva"
-          className="w-3/5 mt-16 ml-16 rounded-xl"
+          className="p-2 rounded-xl place-self-center md:w-[38vw] lg:w-[30vw] lg:mt-[12vw] lg:mr-[3vw]"
         />
       </div>
     </section>

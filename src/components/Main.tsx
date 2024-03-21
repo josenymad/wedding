@@ -17,7 +17,7 @@ const Main: React.FC<MainProps> = ({ reference, inView }) => {
       {window.innerWidth > 1200 ? <Navbar inView={inView} /> : <MobileNavbar />}
       <LandingPage />
       <Travel />
-      {/* <Accommodation /> */}
+      <Accommodation />
       {/* <FAQs reference={reference} /> */}
       {/* <RSVP /> */}
     </div>
