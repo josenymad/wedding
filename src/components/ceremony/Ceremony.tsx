@@ -1,38 +1,20 @@
 import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import CeremonyMobileNavbar from "./CeremonyMobileNavbar";
+import CeremonyNavbar from "./CeremonyNavbar";
 
 const Ceremony = () => {
   const { pathname } = useLocation();
 
   return (
-    <div className="bg-green-900 min-h-screen text-white p-2">
-      <hgroup className="font-berkshire">
-        <Link to="/ceremony">
-          <h2 className="text-7xl mb-8">Ceremony</h2>
-        </Link>
-        <nav className="mb-8 text-2xl">
-          <ul className="flex">
-            <li className="mx-4">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="mx-4">
-              <Link to="camping">Camping</Link>
-            </li>
-            <li className="mx-4">
-              <Link to="plans-for-the-day">Plans for the day</Link>
-            </li>
-            <li className="mx-4">
-              <Link to="can-you-help">Can you help?</Link>
-            </li>
-            <li className="mx-4">
-              <Link to="rsvp">RSVP</Link>
-            </li>
-          </ul>
-        </nav>
-      </hgroup>
+    <div className="bg-green-900 min-h-screen text-white">
+      <Link to="/ceremony">
+        <h2 className="text-[9vw] font-berkshire p-2">Ceremony</h2>
+      </Link>
+      {window.innerWidth > 1000 ? <CeremonyNavbar /> : <CeremonyMobileNavbar />}
       {pathname === "/ceremony" ? (
-        <div className="font-cherry text-xl">
+        <div className="font-cherry text-lg p-2">
           <h3 className="mb-4">
             Whooop, we're getting married! We can't wait to share our special
             day with you.
@@ -43,6 +25,7 @@ const Ceremony = () => {
           </p>
         </div>
       ) : null}
+
       <Outlet />
     </div>
   );

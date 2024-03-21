@@ -7,7 +7,7 @@ import menu5 from "../assets/compressed_menus/Menu 5.jpg";
 
 const MenuSlider = () => {
   return (
-    <Slider className="p-2 w-1/2 justify-self-center" dots>
+    <Slider className="p-2 w-[80vw] sm:w-[50vw] md:w-[40vw] lg:w-[30vw] place-self-center">
       <figure>
         <img src={menu1} alt="cafe menu 1" className="rounded-xl" />
         <figcaption className="text-center font-cherry">

@@ -2,7 +2,7 @@ import MenuSlider from "../MenuSlider";
 
 const CeremonyCamping = () => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 xl:grid-cols-2 p-2">
       <div className="font-cherry text-lg">
         <p className="mb-4">
           You can camp onsite on the Friday and Saturday night. If you do plan
@@ -30,7 +30,7 @@ const CeremonyCamping = () => {
           Etherow Country Park café and The Potting Shed are a beautiful 15/20
           minute walk from Whitebottom Farm.
         </p>
-        <p>
+        <p className="mb-4">
           There is a drinking water tap on site. There will be plenty of showers
           and some places with plug sockets and mirrors, but note that the
           showers will only be running at limited times on Saturday and Sunday

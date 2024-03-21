@@ -1,6 +1,6 @@
 const CeremonyPlans = () => {
   return (
-    <ul className="font-cherry text-lg">
+    <ul className="font-cherry text-lg p-2">
       <li className="mb-4">
         <p className="font-bold">1pm - Guests arrive</p>
         <p>
@@ -49,7 +49,7 @@ const CeremonyPlans = () => {
           Midnight til 2am - Silent disco and chilling
         </p>
         <p>
-          The loud music has to stop just before midnight, but we’ll have some
+          The loud music has to stop just before midnight, but we'll have some
           headphones for a silent disco so you can keep dancing until 2am!
         </p>
       </li>

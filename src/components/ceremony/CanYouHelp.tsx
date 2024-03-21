@@ -1,6 +1,6 @@
 const CanYouHelp = () => {
   return (
-    <div className="font-cherry text-lg">
+    <div className="font-cherry text-lg p-2">
       <p className="mb-4">
         This is very much a DIY wedding so if you can help us at all we'd really
         appreciate it (though no pressure at all!).
