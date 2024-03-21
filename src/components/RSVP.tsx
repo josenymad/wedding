@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 const Rsvp = () => {
   return (
     <section className="bg-rose-600 min-h-screen text-white" id="rsvp">
-      <h2 className="text-7xl font-berkshire mb-8 p-2">RSVP</h2>
+      <h2 className="text-[9vw] font-berkshire">RSVP</h2>
       <nav>
-        <ul className="flex justify-center items-center font-cherry text-4xl">
-          <li>
-            <Link to="ceremony">Ceremony guests</Link>
+        <ul className="font-cherry text-lg text-center p-2 xs:grid xs:grid-cols-3 xs:items-center xs:text-[3vw]">
+          <li className="mb-4">
+            <Link to="ceremony">Ceremony</Link>
+          </li>
+          <li className="xs:order-3 mb-4">
+            <Link to="evening">Evening reception</Link>
           </li>
           <img
             src={rsvpPhoto}
             alt="Ben and Neva"
-            className="w-1/4 rounded-full mx-8"
+            className="p-2 rounded-full m-auto"
           />
-          <li>
-            <Link to="evening">Evening reception guests</Link>
-          </li>
         </ul>
       </nav>
     </section>
