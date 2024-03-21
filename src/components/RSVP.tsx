@@ -13,11 +13,13 @@ const Rsvp = () => {
           <li className="xs:order-3 mb-4">
             <Link to="evening">Evening reception</Link>
           </li>
-          <img
-            src={rsvpPhoto}
-            alt="Ben and Neva"
-            className="p-2 rounded-full m-auto"
-          />
+          <li className="p-2">
+            <img
+              src={rsvpPhoto}
+              alt="Ben and Neva"
+              className="rounded-full shadow-lg"
+            />
+          </li>
         </ul>
       </nav>
     </section>

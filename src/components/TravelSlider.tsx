@@ -15,7 +15,7 @@ const TravelSlider = () => {
           <img
             src={one}
             alt="Enter the park here from Montague street"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             1. Enter the park here from Montague street
@@ -26,7 +26,7 @@ const TravelSlider = () => {
           <img
             src={two}
             alt="Continue through the park"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             2. Continue through the park
@@ -37,7 +37,7 @@ const TravelSlider = () => {
           <img
             src={three}
             alt="Bear right at the cottages"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             3. Bear right at the cottages
@@ -48,7 +48,7 @@ const TravelSlider = () => {
           <img
             src={four}
             alt="Go over the bridge past the waterfall"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             4. Go over the bridge past the waterfall
@@ -59,7 +59,7 @@ const TravelSlider = () => {
           <img
             src={five}
             alt="Turn left after the bridge"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             5. Turn left after the bridge
@@ -77,7 +77,7 @@ const TravelSlider = () => {
           <img
             src={seven}
             alt="Continue into the farm"
-            className="rounded-xl"
+            className="rounded-xl shadow-lg"
           />
           <figcaption className="text-center font-cherry">
             7. Continue into the farm

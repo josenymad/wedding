@@ -117,11 +117,13 @@ const Accommodation = () => {
             </li>
           </ul>
         </hgroup>
-        <img
-          src={accommodation}
-          alt="Ben and Neva"
-          className="p-2 rounded-xl place-self-center md:w-[38vw] lg:w-[30vw] lg:mt-[12vw] lg:mr-[3vw]"
-        />
+        <div className="p-2 place-self-center">
+          <img
+            src={accommodation}
+            alt="Ben and Neva"
+            className="rounded-xl md:w-[37vw] lg:w-[30vw] lg:mt-[12vw] lg:mr-[3vw] shadow-lg"
+          />
+        </div>
       </div>
     </section>
   );

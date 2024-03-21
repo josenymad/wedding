@@ -62,11 +62,13 @@ const FAQs: React.FC<FAQsProps> = ({ reference }) => {
             </li>
           </ul>
         </hgroup>
-        <img
-          src={faqs}
-          alt="Ben and Neva"
-          className="p-2 rounded-xl place-self-center lg:w-[34vw] lg:mr-[6vw]"
-        />
+        <div className="p-2 place-self-center">
+          <img
+            src={faqs}
+            alt="Ben and Neva"
+            className="rounded-xl lg:w-[33vw] lg:mr-[7vw] shadow-lg"
+          />
+        </div>
       </div>
     </section>
   );
