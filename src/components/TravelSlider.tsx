@@ -9,8 +9,8 @@ import seven from "../assets/compressed_directions/7 - Continue into the farm-mi
 
 const TravelSlider = () => {
   return (
-    <div className="w-[25vw] p-2 justify-self-center">
-      <Slider dots>
+    <div className="w-[80vw] xs:w-[30vw] xl:w-[25vw] p-2 place-self-center">
+      <Slider>
         <figure>
           <img
             src={one}
@@ -18,7 +18,7 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Enter the park here from Montague street
+            1. Enter the park here from Montague street
           </figcaption>
         </figure>
 
@@ -29,7 +29,7 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Continue through the park
+            2. Continue through the park
           </figcaption>
         </figure>
 
@@ -40,7 +40,7 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Bear right at the cottages
+            3. Bear right at the cottages
           </figcaption>
         </figure>
 
@@ -51,7 +51,7 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Go over the bridge past the waterfall
+            4. Go over the bridge past the waterfall
           </figcaption>
         </figure>
 
@@ -62,14 +62,14 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Turn left after the bridge
+            5. Turn left after the bridge
           </figcaption>
         </figure>
 
         <figure>
           <img src={six} alt="Go through the gate" className="rounded-xl" />
           <figcaption className="text-center font-cherry">
-            Go through the gate
+            6. Go through the gate
           </figcaption>
         </figure>
 
@@ -80,7 +80,7 @@ const TravelSlider = () => {
             className="rounded-xl"
           />
           <figcaption className="text-center font-cherry">
-            Continue into the farm
+            7. Continue into the farm
           </figcaption>
         </figure>
       </Slider>
