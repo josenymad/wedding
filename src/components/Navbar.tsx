@@ -13,19 +13,29 @@ const Navbar: React.FC<NavbarProps> = ({ inView }) => {
     >
       <ul>
         <li className="my-7">
-          <a href="#landing_page">Home</a>
+          <a href="#landing_page" className="hover:underline">
+            Home
+          </a>
         </li>
         <li className="my-7">
-          <a href="#travel">Travel</a>
+          <a href="#travel" className="hover:underline">
+            Travel
+          </a>
         </li>
         <li className="my-7">
-          <a href="#accommodation">Accommodation</a>
+          <a href="#accommodation" className="hover:underline">
+            Accommodation
+          </a>
         </li>
         <li className="my-7">
-          <a href="#faqs">FAQs</a>
+          <a href="#faqs" className="hover:underline">
+            FAQs
+          </a>
         </li>
         <li className="my-7">
-          <a href="#rsvp">RSVP</a>
+          <a href="#rsvp" className="hover:underline">
+            RSVP
+          </a>
         </li>
       </ul>
     </nav>

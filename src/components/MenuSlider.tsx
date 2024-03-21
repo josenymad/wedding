@@ -9,31 +9,31 @@ const MenuSlider = () => {
   return (
     <Slider className="p-2 w-[80vw] sm:w-[50vw] md:w-[40vw] lg:w-[30vw] place-self-center">
       <figure>
-        <img src={menu1} alt="cafe menu 1" className="rounded-xl" />
+        <img src={menu1} alt="cafe menu 1" className="rounded-xl shadow-lg" />
         <figcaption className="text-center font-cherry">
           Etherow Country Park café
         </figcaption>
       </figure>
       <figure>
-        <img src={menu2} alt="cafe menu 2" className="rounded-xl" />
+        <img src={menu2} alt="cafe menu 2" className="rounded-xl shadow-lg" />
         <figcaption className="text-center font-cherry">
           Etherow Country Park café
         </figcaption>
       </figure>
       <figure>
-        <img src={menu3} alt="cafe menu 3" className="rounded-xl" />
+        <img src={menu3} alt="cafe menu 3" className="rounded-xl shadow-lg" />
         <figcaption className="text-center font-cherry">
           The Potting Shed
         </figcaption>
       </figure>
       <figure>
-        <img src={menu4} alt="cafe menu 4" className="rounded-xl" />
+        <img src={menu4} alt="cafe menu 4" className="rounded-xl shadow-lg" />
         <figcaption className="text-center font-cherry">
           The Potting Shed
         </figcaption>
       </figure>
       <figure>
-        <img src={menu5} alt="cafe menu 5" className="rounded-xl" />
+        <img src={menu5} alt="cafe menu 5" className="rounded-xl shadow-lg" />
         <figcaption className="text-center font-cherry">
           The Potting Shed
         </figcaption>
