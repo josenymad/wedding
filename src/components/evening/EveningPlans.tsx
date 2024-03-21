@@ -1,6 +1,6 @@
 const EveningPlans = () => {
   return (
-    <ul className="font-cherry text-lg">
+    <ul className="font-cherry text-lg p-2">
       <li className="mb-4 font-bold">Please arrive at 7pm.</li>
       <li className="mb-4">
         <p className="font-bold">7pm til midnight - Music and dancing</p>
