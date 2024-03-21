@@ -1,4 +1,6 @@
 import tenerife from "../assets/landingPageCompressed.jpg";
+import { FaAnglesDown } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
@@ -16,6 +18,15 @@ const LandingPage = () => {
           <p>Saturday 7th of September 2024</p>
         </div>
       </hgroup>
+      {window.innerHeight > window.innerWidth && window.innerWidth < 500 ? (
+        <motion.div
+          animate={{ y: [0, -20, 0] }}
+          transition={{ duration: 1, repeat: Infinity }}
+          className="m-auto absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white text-2xl"
+        >
+          <FaAnglesDown />
+        </motion.div>
+      ) : null}
     </section>
   );
 };
