@@ -16,10 +16,10 @@ const Main: React.FC<MainProps> = ({ reference, inView }) => {
     <div>
       {window.innerWidth > 1200 ? <Navbar inView={inView} /> : <MobileNavbar />}
       <LandingPage />
-      <Travel />
-      <Accommodation />
-      <FAQs reference={reference} />
-      <RSVP />
+      {/* <Travel /> */}
+      {/* <Accommodation /> */}
+      {/* <FAQs reference={reference} /> */}
+      {/* <RSVP /> */}
     </div>
   );
 };
