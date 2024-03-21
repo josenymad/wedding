@@ -18,7 +18,7 @@ const Main: React.FC<MainProps> = ({ reference, inView }) => {
       <LandingPage />
       <Travel />
       <Accommodation />
-      {/* <FAQs reference={reference} /> */}
+      <FAQs reference={reference} />
       {/* <RSVP /> */}
     </div>
   );

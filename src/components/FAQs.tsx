@@ -11,9 +11,9 @@ const FAQs: React.FC<FAQsProps> = ({ reference }) => {
       id="faqs"
       ref={reference}
     >
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 xs:grid-cols-2">
         <hgroup className="p-2">
-          <h2 className="text-7xl font-berkshire mb-8">FAQs</h2>
+          <h2 className="text-[9vw] font-berkshire mb-4">FAQs</h2>
           <ul className="font-cherry text-lg">
             <li className="mb-4">
               <p className="font-bold">How do I RSVP?</p>
@@ -65,7 +65,7 @@ const FAQs: React.FC<FAQsProps> = ({ reference }) => {
         <img
           src={faqs}
           alt="Ben and Neva"
-          className="w-3/5 mt-8 ml-16 rounded-xl"
+          className="p-2 rounded-xl place-self-center lg:w-[34vw] lg:mr-[6vw]"
         />
       </div>
     </section>
