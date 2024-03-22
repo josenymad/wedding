@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Rsvp = () => {
   return (
     <section className="bg-rose-600 min-h-screen text-white" id="rsvp">
-      <h2 className="text-[9vw] font-berkshire">RSVP</h2>
+      <h2 className="text-[9vw] font-berkshire ml-2">RSVP</h2>
       <nav>
         <ul className="font-cherry text-lg text-center p-2 xs:grid xs:grid-cols-3 xs:items-center xs:text-[3vw]">
           <li className="mb-4">

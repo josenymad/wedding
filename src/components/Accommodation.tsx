@@ -8,7 +8,7 @@ const Accommodation = () => {
     >
       <div className="grid grid-cols-1 xs:grid-cols-2">
         <hgroup className="p-2">
-          <h2 className="text-[9vw] font-berkshire mb-4">Accommodation</h2>
+          <h2 className="text-[9vw] font-berkshire mb-4 ml-2">Accommodation</h2>
           <ul className="font-cherry text-lg">
             <li>
               <p className="mb-4">
