@@ -14,7 +14,7 @@ const FAQs: React.FC<FAQsProps> = ({ reference }) => {
       <div className="grid grid-cols-1 xs:grid-cols-2">
         <hgroup className="p-2">
           <h2 className="text-[9vw] font-berkshire mb-4">FAQs</h2>
-          <ul className="font-cherry text-lg">
+          <ul className="font-cherry text-lg max-w-[85vw]">
             <li className="mb-4">
               <p className="font-bold">How do I RSVP?</p>
               <p>

@@ -18,6 +18,7 @@ const MobileNavbar = () => {
       isOpen={mobileMenuOpen}
       onOpen={handleMobileMenu}
       onClose={handleMobileMenu}
+      width={200}
     >
       <a href="#landing_page" onClick={closeMobileMenu}>
         Home

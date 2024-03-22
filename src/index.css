@@ -15,18 +15,11 @@ html {
     width: 2rem;
     right: 1rem;
     top: 1rem;
-}
-
-.bm-burger-bars {
-    background: #373a47;
+    color: #ffffff;
 }
 
 .bm-cross {
     color: #ffffff;
-}
-
-.bm-menu-wrap {
-    width: 200px !important;
 }
 
 .bm-menu {

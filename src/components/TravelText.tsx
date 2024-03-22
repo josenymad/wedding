@@ -2,7 +2,7 @@ const TravelText = () => {
   return (
     <hgroup className="p-2">
       <h2 className="text-[9vw] font-berkshire mb-4">Travel</h2>
-      <ul className="font-cherry text-lg">
+      <ul className="font-cherry text-lg max-w-[85vw]">
         <li>
           <p className="mb-4">
             Use postcode SK6 5JE, which should take you to Montague Street.

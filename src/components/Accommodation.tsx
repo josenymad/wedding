@@ -9,7 +9,7 @@ const Accommodation = () => {
       <div className="grid grid-cols-1 xs:grid-cols-2">
         <hgroup className="p-2">
           <h2 className="text-[9vw] font-berkshire mb-4 ml-2">Accommodation</h2>
-          <ul className="font-cherry text-lg">
+          <ul className="font-cherry text-lg max-w-[85vw]">
             <li>
               <p className="mb-4">
                 You are welcome to camp on site and we'd love it if you did!

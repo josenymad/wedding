@@ -19,6 +19,7 @@ const CeremonyMobileNavbar = () => {
       isOpen={mobileMenuOpen}
       onOpen={handleMobileMenu}
       onClose={handleMobileMenu}
+      width={200}
     >
       <Link to="/" onClick={closeMobileMenu}>
         Home
