@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import EveningNavbar from "./EveningNavbar";
 import EveningMobileNavbar from "./EveningMobileNavbar";
+import EveningRsvp from "./EveningRsvp";
 
 const Evening = () => {
   const { pathname } = useLocation();
@@ -14,14 +15,17 @@ const Evening = () => {
       </Link>
       {window.innerWidth > 1000 ? <EveningNavbar /> : <EveningMobileNavbar />}
       {pathname === "/evening" ? (
-        <div className="font-cherry text-xl p-2">
-          <h3 className="mb-4">
-            Whooop, we're getting married! We can't wait to party with you.
-          </h3>
-          <p>
-            Hopefully we have provided all the information you need on this
-            page, but if not, please contact XXX.
-          </p>
+        <div>
+          <div className="font-cherry text-xl p-2">
+            <h3 className="mb-4">
+              Whooop, we're getting married! We can't wait to party with you.
+            </h3>
+            <p>
+              Hopefully we have provided all the information you need on this
+              page, but if not, please contact XXX.
+            </p>
+          </div>
+          <EveningRsvp />
         </div>
       ) : null}
       <Outlet />

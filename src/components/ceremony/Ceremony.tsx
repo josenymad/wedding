@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import CeremonyMobileNavbar from "./CeremonyMobileNavbar";
 import CeremonyNavbar from "./CeremonyNavbar";
+import CeremonyRsvp from "./CeremonyRsvp";
 
 const Ceremony = () => {
   const { pathname } = useLocation();
@@ -14,15 +15,18 @@ const Ceremony = () => {
       </Link>
       {window.innerWidth > 1000 ? <CeremonyNavbar /> : <CeremonyMobileNavbar />}
       {pathname === "/ceremony" ? (
-        <div className="font-cherry text-xl p-2">
-          <h3 className="mb-4">
-            Whooop, we're getting married! We can't wait to share our special
-            day with you.
-          </h3>
-          <p>
-            Hopefully we have provided all the information you need on this
-            page, but if not, please contact XXX.
-          </p>
+        <div>
+          <div className="font-cherry text-xl p-2">
+            <h3 className="mb-4">
+              Whooop, we're getting married! We can't wait to share our special
+              day with you.
+            </h3>
+            <p>
+              Hopefully we have provided all the information you need on this
+              page, but if not, please contact XXX.
+            </p>
+          </div>
+          <CeremonyRsvp />
         </div>
       ) : null}
       <Outlet />
