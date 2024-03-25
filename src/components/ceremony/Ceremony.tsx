@@ -15,18 +15,16 @@ const Ceremony = () => {
       </Link>
       {window.innerWidth > 1000 ? <CeremonyNavbar /> : <CeremonyMobileNavbar />}
       {pathname === "/ceremony" ? (
-        <div>
-          <div className="font-cherry text-xl p-2">
-            <h3 className="mb-4">
-              Whooop, we're getting married! We can't wait to share our special
-              day with you.
-            </h3>
-            <p>
-              Hopefully we have provided all the information you need on this
-              page, but if not, please contact XXX.
-            </p>
-          </div>
+        <div className="font-cherry text-xl">
+          <h3 className="p-2">
+            Whooop, we're getting married! We can't wait to share our special
+            day with you.
+          </h3>
           <CeremonyRsvp />
+          <p className="p-2">
+            Hopefully we have provided all the information you need on this
+            page, but if not, please contact XXX.
+          </p>
         </div>
       ) : null}
       <Outlet />

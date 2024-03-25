@@ -15,17 +15,15 @@ const Evening = () => {
       </Link>
       {window.innerWidth > 1000 ? <EveningNavbar /> : <EveningMobileNavbar />}
       {pathname === "/evening" ? (
-        <div>
-          <div className="font-cherry text-xl p-2">
-            <h3 className="mb-4">
-              Whooop, we're getting married! We can't wait to party with you.
-            </h3>
-            <p>
-              Hopefully we have provided all the information you need on this
-              page, but if not, please contact XXX.
-            </p>
-          </div>
+        <div className="font-cherry text-xl">
+          <h3 className="p-2">
+            Whooop, we're getting married! We can't wait to party with you.
+          </h3>
           <EveningRsvp />
+          <p className="p-2">
+            Hopefully we have provided all the information you need on this
+            page, but if not, please contact XXX.
+          </p>
         </div>
       ) : null}
       <Outlet />
