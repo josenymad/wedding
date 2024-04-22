@@ -7,15 +7,15 @@ const LandingPage = () => {
     <section id="landing_page" className="bg-green-900 min-h-screen">
       <img src={tenerife} alt="tenerife" />
       <hgroup className="text-center text-white">
-        <h1 className="absolute top-[0.1vw] left-[10vw] text-[10vw] font-berkshire">
+        <h1 className="absolute top-[0vw] left-[5vw] text-[10vw] font-berkshire">
           Ben and Neva
         </h1>
-        <div className="font-cherry lg:absolute lg:top-[13vw] lg:left-[25vw] lg:text-green-900 lg:text-[1.3vw]">
+        <div className="font-cherry lg:absolute lg:top-[13vw] lg:left-[23vw] lg:text-green-900 lg:text-[1.3vw]">
+          <p className="font-bold">Saturday 7th of September 2024</p>
           <p>Whitebottom Farm,</p>
           <p>Etherow Country Park,</p>
           <p>Stockport,</p>
           <p>SK6 5JE</p>
-          <p>Saturday 7th of September 2024</p>
         </div>
       </hgroup>
       {window.innerHeight > window.innerWidth && window.innerWidth < 500 ? (

@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import CeremonyMobileNavbar from "./CeremonyMobileNavbar";
 import CeremonyNavbar from "./CeremonyNavbar";
-import CeremonyRsvp from "./CeremonyRsvp";
+import RsvpForm from "../RsvpForm";
 
 const Ceremony = () => {
   const { pathname } = useLocation();
@@ -20,11 +20,19 @@ const Ceremony = () => {
             Whooop, we're getting married! We can't wait to share our special
             day with you.
           </h3>
-          <CeremonyRsvp />
           <p className="p-2">
-            Hopefully we have provided all the information you need on this
-            page, but if not, please contact XXX.
+            You'll find all the information you need by navigating the menu on
+            this page (3 lines on the top right for mobile).
           </p>
+
+          <p className="p-2">
+            If you need to get in touch, you can also email us{" "}
+            <a href="mailto: nevaandben@gmail.com" className="underline">
+              here
+            </a>
+            .
+          </p>
+          <RsvpForm formLink="https://forms.office.com/e/UDPV9Mi2zP" />
         </div>
       ) : null}
       <Outlet />
