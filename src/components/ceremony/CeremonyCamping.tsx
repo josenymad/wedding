@@ -18,6 +18,7 @@ const CeremonyCamping = () => {
           <a
             href="https://www.thecanvasco.co.uk/neva-bens-wedding"
             className="underline"
+            target="_blank"
           >
             book a bell tent
           </a>{" "}

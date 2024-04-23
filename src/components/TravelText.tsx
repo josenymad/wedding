@@ -15,6 +15,7 @@ const TravelText = () => {
           <a
             href="https://w3w.co/deploying.propose.streamers"
             className="underline"
+            target="_blank"
           >
             What3Words
           </a>

@@ -7,7 +7,11 @@ const EveningPlans = () => {
         <p>
           Featuring live music from the brilliant Ríoghnach Connolly and Ellis
           Davies from{" "}
-          <a href="https://honeyfeet.org/" className="underline">
+          <a
+            href="https://honeyfeet.org/"
+            className="underline"
+            target="_blank"
+          >
             Honeyfeet
           </a>
           .
@@ -22,7 +26,7 @@ const EveningPlans = () => {
           Midnight til 2am - Silent disco and chilling
         </p>
         <p>
-          The loud music has to stop just before midnight, but we’ll have some
+          The loud music has to stop just before midnight, but we'll have some
           headphones for a silent disco so you can keep dancing until 2am!
         </p>
       </li>

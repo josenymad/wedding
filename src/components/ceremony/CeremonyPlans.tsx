@@ -34,7 +34,11 @@ const CeremonyPlans = () => {
         <p>
           Featuring live music from the brilliant Ríoghnach Connolly and Ellis
           Davies from{" "}
-          <a href="https://honeyfeet.org/" className="underline">
+          <a
+            href="https://honeyfeet.org/"
+            className="underline"
+            target="_blank"
+          >
             Honeyfeet
           </a>
           .
