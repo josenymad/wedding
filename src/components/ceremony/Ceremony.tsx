@@ -10,12 +10,12 @@ const Ceremony = () => {
 
   return (
     <div className="bg-green-900 min-h-screen text-white">
+      {window.innerWidth > 1000 ? <CeremonyNavbar /> : <CeremonyMobileNavbar />}
       <Link to="/ceremony">
         <h2 className="text-[9vw] font-berkshire p-2">Ceremony</h2>
       </Link>
-      {window.innerWidth > 1000 ? <CeremonyNavbar /> : <CeremonyMobileNavbar />}
       {pathname === "/ceremony" ? (
-        <div className="font-cherry text-xl">
+        <div className="font-cherry text-xl max-w-[90vw]">
           <h3 className="p-2">
             Whooop, we're getting married! We can't wait to share our special
             day with you.

@@ -10,12 +10,12 @@ const Evening = () => {
 
   return (
     <div className="bg-green-900 min-h-screen text-white">
+      {window.innerWidth > 1000 ? <EveningNavbar /> : <EveningMobileNavbar />}
       <Link to="/evening">
         <h2 className="text-[9vw] font-berkshire p-2">Evening reception</h2>
       </Link>
-      {window.innerWidth > 1000 ? <EveningNavbar /> : <EveningMobileNavbar />}
       {pathname === "/evening" ? (
-        <div className="font-cherry text-xl">
+        <div className="font-cherry text-xl max-w-[90vw]">
           <h3 className="p-2">
             Whooop, we're getting married! We can't wait to party with you.
           </h3>

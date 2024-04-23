@@ -1,6 +1,6 @@
 const CeremonyPlans = () => {
   return (
-    <ul className="font-cherry text-lg p-2">
+    <ul className="font-cherry text-lg p-2 max-w-[90vw]">
       <li className="mb-4">
         <p className="font-bold">1pm - Guests arrive</p>
         <p>

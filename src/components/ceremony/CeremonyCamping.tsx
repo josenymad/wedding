@@ -3,7 +3,7 @@ import MenuSlider from "../MenuSlider";
 const CeremonyCamping = () => {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 p-2">
-      <div className="font-cherry text-lg">
+      <div className="font-cherry text-lg max-w-[90vw]">
         <p className="mb-4">
           You can camp onsite on the Friday and Saturday night. If you do plan
           on staying Friday night, please let us know when you RSVP. If there

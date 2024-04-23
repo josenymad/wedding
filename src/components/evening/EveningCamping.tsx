@@ -3,7 +3,7 @@ import MenuSlider from "../MenuSlider";
 const EveningCamping = () => {
   return (
     <div className="grid grid-cols-1 xl:grid-cols-2 p-2">
-      <div className="font-cherry text-lg">
+      <div className="font-cherry text-lg max-w-[90vw]">
         <p className="mb-4">
           You can camp onsite on Saturday night. If you are, you are welcome to
           arrive from 6:30pm to get setup. Tents and campervans/caravans are

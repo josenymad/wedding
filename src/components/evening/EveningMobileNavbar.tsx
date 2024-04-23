@@ -19,7 +19,7 @@ const EveningMobileNavbar = () => {
       isOpen={mobileMenuOpen}
       onOpen={handleMobileMenu}
       onClose={handleMobileMenu}
-      width={200}
+      width={150}
     >
       <Link to="/" onClick={closeMobileMenu}>
         Home
