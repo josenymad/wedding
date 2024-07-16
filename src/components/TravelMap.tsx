@@ -26,5 +26,3 @@ const TravelMap = () => {
 };
 
 export default TravelMap;
-
-// className="w-[80vw] sm:w-[50vw] xl:h-[10vw] rounded m-auto"
