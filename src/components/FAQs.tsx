@@ -59,6 +59,16 @@ const FAQs: React.FC<FAQsProps> = ({ reference }) => {
                 wish to give a gift as well, money to put towards our honeymoon
                 would be greatly appreciated.
               </p>
+              <p>
+                A few people have been asking for our bank details, so thought
+                it best to share them here:
+              </p>
+              <ol>
+                <li>Benjamin Jones</li>
+                <li>Account - 12915019</li>
+                <li>SC - 040004</li>
+                <li>Your name as the reference</li>
+              </ol>
             </li>
           </ul>
         </hgroup>
